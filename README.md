@@ -21,13 +21,13 @@ Pembagian IP Dari Tree akan mendapat pembagian IP sebagai berikut <br>
 ![alt text](https://github.com/ObligatedUsername/Jarkom-Modul-4-A08-2022/blob/master/assets/tabel%20subnet%20vlsm.jpg) <br>
 #### Contoh Konfigurasi IP dan Routing Pada CPT
 Setelah menentukan dan membuat tabel pembagian IP VLSM lengkap, kita kemudian mengisi konfigurasi IP dan routing pada setiap node di dalam CPT. Berikut contoh konfigurasi IP pada router The Resonance & server The Beast <br>
-![alt text](https://github.com/ObligatedUsername/Jarkom-Modul-4-A08-2022/blob/master/assets/konfigurasi%20ip%20the%20resonance.png) <br><br>
-![alt text](https://github.com/ObligatedUsername/Jarkom-Modul-4-A08-2022/blob/master/assets/konfigurasi%20ip%20the%20beast.png) <br><br>
+![alt text](https://github.com/ObligatedUsername/Jarkom-Modul-4-A08-2022/blob/master/assets/konfigurasi_ip_the_resonance.png) <br><br>
+![alt text](https://github.com/ObligatedUsername/Jarkom-Modul-4-A08-2022/blob/master/assets/konfigurasi_ip_the_beast.png) <br><br>
 Dan berikut contoh routing pada The Resonance & The Order <br>
-![alt text](https://github.com/ObligatedUsername/Jarkom-Modul-4-A08-2022/blob/master/assets/routing%20the%20resonance.png) <br><br>
-![alt text](https://github.com/ObligatedUsername/Jarkom-Modul-4-A08-2022/blob/master/assets/routing%20the%20order.png) <br><br>
+![alt text](https://github.com/ObligatedUsername/Jarkom-Modul-4-A08-2022/blob/master/assets/routing_the_resonance.png) <br><br>
+![alt text](https://github.com/ObligatedUsername/Jarkom-Modul-4-A08-2022/blob/master/assets/routing_the_order.png) <br><br>
 #### Testing
-![alt text](https://github.com/ObligatedUsername/Jarkom-Modul-4-A08-2022/blob/master/assets/testing%20vlsm.gif) <br><br>
+![alt text](https://github.com/ObligatedUsername/Jarkom-Modul-4-A08-2022/blob/master/assets/testing_vlsm.gif?raw=true) <br><br>
 
 ## GNS3 Menggunakan CIDR
 #### Topologi Dengan Pembagian Subnet
