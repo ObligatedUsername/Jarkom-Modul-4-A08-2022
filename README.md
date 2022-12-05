@@ -358,21 +358,56 @@ Terakhir, mencoba ping ke google.com dari salah satu node.
 
 
 
-### A1
-### Cara Pengerjaan
+konfigurasi IP resonance:
+```
+auto eth1
+iface eth1 inet static
+ address 10.3.64.1
+ netmask 255.255.255.252
+auto eth2
+iface eth2 inet static
+ address 10.3.64.5
+ netmask 255.255.255.252
+auto eth3
+iface eth3 inet static
+ address 10.3.68.1
+ netmask 255.255.255.252
+auto eth3
+iface eth3 inet static
+ address 10.3.68.1
+ netmask 255.255.255.252
+ ```
 
-Ubah network configuration pada ...(eth) yang mengarah ke ...(eth) menjadi seperti berikut.
+konfigurasi IP beast:
+```
+auto eth0
+iface eth0 inet static
+ address 10.3.128.2
+ netmask 255.255.255.252
+ gateway 10.3.128.1
+ ```
 
-Ubah network configuration pada ...(eth) menjadi seperti berikut.
-
-Tambahkan routing
-
-### A2
-### Cara Pengerjaan
-
-
-Ubah network configuration pada ...(eth) yang mengarah ke ...(eth) menjadi seperti berikut.
-
-Ubah network configuration pada ...(eth) menjadi seperti berikut.
-
-Tambahkan routing
+routing resonance:
+```
+route add -net 10.3.16.64 netmask 255.255.255.192 gw 10.3.64.2
+route add -net 10.3.16.0 netmask 255.255.255.252 gw 10.3.64.2
+route add -net 10.3.12.0 netmask 255.255.252.0 gw 10.3.64.2
+route add -net 10.3.9.0 netmask 255.255.255.252 gw 10.3.64.2
+route add -net 10.3.8.0 netmask 255.255.255.0 gw 10.3.64.2
+route add -net 10.3.34.128 netmask 255.255.255.128 gw 10.3.64.6
+route add -net 10.3.34.0 netmask 255.255.255.252 gw 10.3.64.6
+route add -net 10.3.2.0 netmask 255.255.254.0 gw 10.3.64.6
+route add -net 10.3.1.0 netmask 255.255.255.0 gw 10.3.64.6
+route add -net 10.3.0.0 netmask 255.255.255.252 gw 10.3.64.6
+route add -net 10.3.33.0 netmask 255.255.255.252 gw 10.3.64.6
+route add -net 10.3.32.0 netmask 255.255.255.128 gw 10.3.64.6
+route add -net 10.3.32.128 netmask 255.255.255.128 gw 10.3.64.6
+route add -net 10.3.70.0 netmask 255.255.254.0 gw 10.3.68.2
+```
+routing order:
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.3.64.1
+route add -net 10.3.12.0 netmask 255.255.252.0 gw 10.3.16.2
+route add -net 10.3.9.0 netmask 255.255.255.252 gw 10.3.16.2
+route add -net 10.3.8.0 netmask 255.255.255.0 gw 10.3.16.2
+```
