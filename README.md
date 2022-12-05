@@ -9,9 +9,14 @@
 
 ## Topologi
 
-
-## VLSM (Variable Length Subnet Masking)
-
 ## CPT Menggunakan VLSM
+#### Topologi dengan pembagian subnet
+![alt text](https://github.com/ObligatedUsername/Jarkom-Modul-4-A08-2022/blob/master/assets/topology_w_subnet_VLSM.png) <br>
+#### Perhitungan Netmask
+![alt text](https://github.com/ObligatedUsername/Jarkom-Modul-4-A08-2022/blob/master/assets/tabel_jml_IP_VLSM.png) <br>
+#### VLSM Tree
+![alt text](https://github.com/ObligatedUsername/Jarkom-Modul-4-A08-2022/blob/master/assets/VLSM_Tree.jpg) <br>
+Pembagian IP Dari Tree akan mendapat pembagian IP sebagai berikut <br>
+![alt text](https://github.com/ObligatedUsername/Jarkom-Modul-4-A08-2022/blob/master/assets/tabel%20subnet%20vlsm.jpg) <br>
 
 ## GNS3 Menggunakan CIDR
