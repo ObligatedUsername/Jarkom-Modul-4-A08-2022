@@ -28,3 +28,140 @@ Dapat dilihat di link berikut
 ![alt text](https://github.com/ObligatedUsername/Jarkom-Modul-4-A08-2022/blob/master/assets/cidr_tree.png) <br>
 Pembagian IP Dari Tree akan mendapat pembagian IP sebagai berikut <br>
 ![alt text](https://github.com/ObligatedUsername/Jarkom-Modul-4-A08-2022/blob/master/assets/tabel_subnet_cidr.png) <br>
+
+**Konfigurasi: The Resonance**
+```
+auto eth0
+iface eth0 inet dhcp
+auto eth1
+iface eth1 inet static
+      address 
+      netmask 
+auto eth2
+iface eth2 inet static
+      address 
+      netmask 
+auto eth3
+iface eth3 inet static
+      address 
+      netmask 
+auto eth4
+iface eth4 inet static
+      address 
+      netmask 
+```
+
+**Konfigurasi: The Order**
+```
+auto eth0
+iface eth0 inet static
+      address 
+      netmask
+      gateway 
+auto eth1
+iface eth1 inet static
+      address 
+      netmask 
+auto eth2
+iface eth2 inet static
+      address 
+      netmask 
+```
+
+**Konfigurasi: The Minister**
+```
+auto eth0
+iface eth0 inet static
+      address 
+      netmask 
+      gateway 
+auto eth1
+iface eth1 inet static
+      address 
+      netmask 
+auto eth2
+iface eth2 inet static
+      address 
+      netmask 
+```
+
+**Konfigurasi: The Dauntless**
+```
+auto eth0
+iface eth0 inet static
+      address 
+      netmask 
+      gateway 
+auto eth1
+iface eth1 inet static
+      address 
+      netmask 
+```
+
+**Konfigurasi: The Instrument**
+```
+auto eth0
+iface eth0 inet static
+      address 
+      netmask 
+      getaway 
+auto eth1
+iface eth1 inet static
+      address 
+      netmask 
+auto eth2
+iface eth2 inet static
+      address
+      netmask 
+auto eth3
+iface eth3 inet static
+      address 
+      netmask 
+```
+
+**Konfigurasi: The Profound**
+```
+auto eth0
+iface eth0 inet static
+      address 
+      netmask 
+      gateway
+auto eth1
+iface eth1 inet static
+      address 
+      netmask 
+auto eth2
+iface eth2 inet static
+      address 
+      netmask 
+```
+
+**Konfigurasi: The Firefist**
+```
+auto eth0
+iface eth0 inet static
+      address 
+      netmask 
+      gateway 
+auto eth1
+iface eth1 inet static
+      address 
+      netmask 
+auto eth2
+iface eth2 inet static
+      address 
+      netmask 
+```
+
+**Konfigurasi: The Queen**
+```
+auto eth0
+iface eth0 inet static
+      address 
+      netmask 
+      gateway
+auto eth1
+iface eth1 inet static
+      address 
+      netmask 
+```
