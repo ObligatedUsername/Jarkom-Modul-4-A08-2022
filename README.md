@@ -330,3 +330,40 @@ iface eth0 inet static
 ```
 
 ```
+
+
+### Koneksi Internet
+Setiap node diminta agar dapat terhubung dengan internet, maka pada , jalankan command berikut.
+
+```
+iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE -s 
+```
+
+Untuk setiap node selain , jalankan command berikut.
+
+```
+echo nameserver  > /etc/resolv.conf
+```
+
+Terakhir, mencoba ping ke google.com dari salah satu node.
+
+
+
+### A1
+### Cara Pengerjaan
+
+Ubah network configuration pada ...(eth) yang mengarah ke ...(eth) menjadi seperti berikut.
+
+Ubah network configuration pada ...(eth) menjadi seperti berikut.
+
+Tambahkan routing
+
+### A2
+### Cara Pengerjaan
+
+
+Ubah network configuration pada ...(eth) yang mengarah ke ...(eth) menjadi seperti berikut.
+
+Ubah network configuration pada ...(eth) menjadi seperti berikut.
+
+Tambahkan routing
