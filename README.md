@@ -11,7 +11,7 @@
 ![alt text](https://github.com/ObligatedUsername/Jarkom-Modul-4-A08-2022/blob/master/assets/topologi_soal.jpg) <br>
 
 ## CPT Menggunakan VLSM
-#### Topologi dengan pembagian subnet
+#### Topologi Dengan Pembagian Subnet
 ![alt text](https://github.com/ObligatedUsername/Jarkom-Modul-4-A08-2022/blob/master/assets/topology_w_subnet_VLSM.png) <br>
 #### Perhitungan Netmask
 ![alt text](https://github.com/ObligatedUsername/Jarkom-Modul-4-A08-2022/blob/master/assets/tabel_jml_IP_VLSM.png) <br>
@@ -19,9 +19,18 @@
 ![alt text](https://github.com/ObligatedUsername/Jarkom-Modul-4-A08-2022/blob/master/assets/VLSM_Tree.jpg) <br>
 Pembagian IP Dari Tree akan mendapat pembagian IP sebagai berikut <br>
 ![alt text](https://github.com/ObligatedUsername/Jarkom-Modul-4-A08-2022/blob/master/assets/tabel%20subnet%20vlsm.jpg) <br>
+#### Contoh Konfigurasi IP dan Routing Pada CPT
+Setelah menentukan dan membuat tabel pembagian IP VLSM lengkap, kita kemudian mengisi konfigurasi IP dan routing pada setiap node di dalam CPT. Berikut contoh konfigurasi IP pada router The Resonance & server The Beast <br>
+![alt text](https://github.com/ObligatedUsername/Jarkom-Modul-4-A08-2022/blob/master/assets/konfigurasi%20ip%20the%20resonance.png) <br><br>
+![alt text](https://github.com/ObligatedUsername/Jarkom-Modul-4-A08-2022/blob/master/assets/konfigurasi%20ip%20the%20beast.png) <br><br>
+Dan berikut contoh routing pada The Resonance & The Order <br>
+![alt text](https://github.com/ObligatedUsername/Jarkom-Modul-4-A08-2022/blob/master/assets/routing%20the%20resonance.png) <br><br>
+![alt text](https://github.com/ObligatedUsername/Jarkom-Modul-4-A08-2022/blob/master/assets/routing%20the%20order.png) <br><br>
+#### Testing
+![alt text](https://github.com/ObligatedUsername/Jarkom-Modul-4-A08-2022/blob/master/assets/testing%20vlsm.gif) <br><br>
 
 ## GNS3 Menggunakan CIDR
-#### Topologi dengan pembagian Subnet
+#### Topologi Dengan Pembagian Subnet
 Dapat dilihat di link berikut
 [Topologi pembagian subnet menggunakan CIDR](https://www.figma.com/file/lo5zmFVVrsZfndWpW3vkya/CIDR---Modul-4---Jarkom---A08?node-id=0%3A1&t=J80zNCHu2Xs32OIP-1) <br>
 #### CIDR Tree
