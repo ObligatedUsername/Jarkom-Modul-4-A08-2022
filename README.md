@@ -29,6 +29,7 @@ Dapat dilihat di link berikut
 Pembagian IP Dari Tree akan mendapat pembagian IP sebagai berikut <br>
 ![alt text](https://github.com/ObligatedUsername/Jarkom-Modul-4-A08-2022/blob/master/assets/tabel_subnet_cidr.png) <br>
 
+### CIDR Routing - Setting Network Configuration
 **Konfigurasi: The Resonance**
 ```
 auto eth0
@@ -164,4 +165,168 @@ auto eth1
 iface eth1 inet static
       address 
       netmask 
+```
+
+### CIDR Routing - Setting Host Configuration
+
+**Konfigurasi: Guideau (1000 Host)**
+```
+auto eth0
+iface eth0 inet static
+      address 
+      netmask 
+      gateway 
+```
+
+**Konfigurasi: Phanora (150 Host)**
+```
+auto eth0
+iface eth0 inet static
+      address 
+      netmask 
+      gateway 
+```
+
+**Konfigurasi: Johan (100 Host)**
+```
+auto eth0
+iface eth0 inet static
+      address 
+      netmask 
+      gateway 
+```
+
+**Konfigurasi: Ashaf (50 Host)**
+```
+auto eth0
+iface eth0 inet static
+      address 
+      netmask 
+      gateway 
+```
+
+**Konfigurasi: Matt Cugatt (120 Host)**
+```
+auto eth0
+iface eth0 inet static
+      address 
+      netmask 
+      gateway
+```
+
+**Konfigurasi: Keith (210 Host)**
+```
+auto eth0
+iface eth0 inet static
+      address 
+      netmask 
+      gateway
+```
+
+**Konfigurasi: Oakleave (500 Host)**
+```
+auto eth0
+iface eth0 inet static
+      address 
+      netmask
+      gateway 
+```
+
+**Konfigurasi: The Witch (Server)**
+```
+auto eth0
+iface eth0 inet static
+      address 
+      netmask 
+      gateway 
+```
+
+**Konfigurasi: The Beast (Server)**
+```
+auto eth0
+iface eth0 inet static
+      address 
+      netmask 
+      gateway 
+```
+
+**Konfigurasi: Haines (70 Host)**
+```
+auto eth0
+iface eth0 inet static
+      address
+      netmask 
+      gateway 
+```
+**Konfigurasi: Corvekt (200 Host)**\
+```bash
+auto eth0
+iface eth0 inet static
+      address 
+      netmask 
+      gateway 
+```
+
+**Konfigurasi: Spendrow (120 Host)**
+```
+auto eth0
+iface eth0 inet static
+      address 
+      netmask 
+      gateway 
+```
+
+**Konfigurasi: Helga (70 Host)**
+```
+auto eth0
+iface eth0 inet static
+      address 
+      netmask 
+      gateway 
+```
+
+### CIDR Routing - Routing
+**The Resonance**
+```
+
+```
+
+**The Order**
+```
+
+```
+
+**The Minister**
+```
+
+```
+
+**The Dauntless**
+```
+
+```
+
+**The Magical**
+```
+
+```
+
+**The Instrument**
+```
+
+```
+
+**The Profound**
+```
+
+```
+
+**The Firefist**
+```
+
+```
+
+**The Queen**
+```
+
 ```
