@@ -357,7 +357,7 @@ echo nameserver  > /etc/resolv.conf
 Terakhir, mencoba ping ke google.com dari salah satu node.
 
 
-![alt text]([https://github.com/ObligatedUsername/Jarkom-Modul-4-A08-2022/blob/master/assets/testing_vlsm.gif](https://github.com/ObligatedUsername/Jarkom-Modul-4-A08-2022/blob/4f358d895697e5c3864b49c863a4df3c1f6fd163/assets/testing_cidr.gif)?raw=true) <br><br>
+![alt text]([https://github.com/ObligatedUsername/Jarkom-Modul-4-A08-2022/blob/4f358d895697e5c3864b49c863a4df3c1f6fd163/assets/testing_cidr.gif])) <br><br>
 
 
 
