@@ -357,7 +357,7 @@ echo nameserver  > /etc/resolv.conf
 Terakhir, mencoba ping ke google.com dari salah satu node.
 
 
-![alt text](https://github.com/ObligatedUsername/Jarkom-Modul-4-A08-2022/blob/master/assets/testing_cidr.gif)) <br><br>
+
 
 
 
@@ -414,3 +414,7 @@ route add -net 10.3.12.0 netmask 255.255.252.0 gw 10.3.16.2
 route add -net 10.3.9.0 netmask 255.255.255.252 gw 10.3.16.2
 route add -net 10.3.8.0 netmask 255.255.255.0 gw 10.3.16.2
 ```
+
+## Contoh Hasil
+
+![alt text](https://github.com/ObligatedUsername/Jarkom-Modul-4-A08-2022/blob/master/assets/testing_cidr.gif)) <br><br>
