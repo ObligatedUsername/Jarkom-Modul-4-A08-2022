@@ -360,6 +360,8 @@ Terakhir, mencoba ping ke google.com dari salah satu node.
 
 
 
+## Contoh Pengerjaan Soal
+
 
 konfigurasi IP resonance:
 ```
